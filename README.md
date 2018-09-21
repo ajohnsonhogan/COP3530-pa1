@@ -1,8 +1,9 @@
 # COP3530-pa1
 
-Linked List Line Text Editor
-Programming Assignment 1
+Linked List Line Text Editor - 
+Programming Assignment 1,
 COP3530: Data Structures and Algorithms, Fall 2018
+
 Asher Johnson Hogan
 
 The purpose of this project is to create a line text editor represented
