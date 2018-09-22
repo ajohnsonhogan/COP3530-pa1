@@ -284,7 +284,7 @@ int menu() {
     // checks for proper syntax; if syntax doesn't match exactly,
     // prints an error statement with correct syntax for each command
     // then executes the matching command
-    string command = tokens.at(0);
+    string command = tokens.empty() ? "" : tokens.at(0);
     if (command == "insertEnd") {
         if (tokens.size() != 2 || !isQuote(tokens.at(1))) {
             // cout << "Error, syntax for insertEnd is insertEnd \"text\"" << endl;
